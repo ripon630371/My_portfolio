@@ -1,0 +1,66 @@
+/*******************************
+	All Responsive Code
+*******************************/
+@media (max-width: 991px){
+	.navbar-toggler.collapsed i{
+		background: red;
+	    color: #FF40B2;
+	    padding: 7px 16px;
+	    overflow: hidden;
+	    display: block;
+	    border-radius: 2px;
+	}
+
+	.main_menu ul.navbar-nav {
+	    background: rgba(0,0,0,.8) !important;
+	    width: 100%;
+	    text-align: center;
+
+ 	}
+ 	.main_menu ul.navbar-nav li a{
+ 		padding: 10px 0px;
+ 	}
+ 	.header_area{
+ 		background:  transparent !important;
+ 	}
+ 	.header_content p {
+	    font-size: 14px;
+	}
+	.header_content h2 {
+    font-size: 45px;
+
+	}
+	.about_right h3 {
+    font-size: 25px;
+	}
+	
+}
+@media (max-width: 767px){
+	.about_left_details {
+	    position: absolute;
+	    content: '';
+	    bottom: 0px;
+	    width: 100%; 
+	    z-index: auto;
+	}
+	.header_content h2 {
+    	font-size: 39px;
+	}
+	.section_heading {
+    	margin-bottom: 30px;
+	}
+	.video_text h2 {
+    	font-size: 30px;
+   
+	}
+	.protfolio_item img {
+    	width: 100%;
+	}
+	.blog_item img {
+    	width: 100%;
+	}
+	.footer_area p {
+	    color: #ddd !important;
+	    font-size: 13px;
+	}
+}
